@@ -17,6 +17,7 @@ namespace AppoDoc.Repository
             return result;
         }
 
+        // get all users
         public dynamic Get_All_Mob_Users() {
 
             mySqlConnection db = new mySqlConnection();
