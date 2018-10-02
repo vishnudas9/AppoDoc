@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppoDoc", "AppoDoc\AppoDoc.csproj", "{87CD9C3A-3F08-4D8B-AB6C-C0991B23A76D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87CD9C3A-3F08-4D8B-AB6C-C0991B23A76D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87CD9C3A-3F08-4D8B-AB6C-C0991B23A76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87CD9C3A-3F08-4D8B-AB6C-C0991B23A76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87CD9C3A-3F08-4D8B-AB6C-C0991B23A76D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDD5776D-FF63-4360-BA10-1959E8B85D1B}
+	EndGlobalSection
+EndGlobal
