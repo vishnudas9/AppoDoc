@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using AppoDoc.Models;
+using AppoDoc.Repository;
 
 namespace AppoDoc.Controllers
 {
@@ -33,18 +34,18 @@ namespace AppoDoc.Controllers
         {
             try
             {
-                
-                mySqlConnection db = new mySqlConnection();              
-                bool result = db.ExecuteQuery("INSERT INTO tbl_app_users (au_firstname) VALUES ('"+ mob.au_firstname  +"')");
+
+               appuser_repo obj = new appuser_repo();
+               var result = obj.New_registration(mob);
                 if (result)
                 {
                     return RedirectToAction("index");
                 }
                 else
                 {
-                    return RedirectToAction("create");
+                    return RedirectToAction("Create");
                 }
-               
+
             }
             catch
             {

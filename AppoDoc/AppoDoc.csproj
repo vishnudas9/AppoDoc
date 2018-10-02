@@ -166,6 +166,7 @@
     <Compile Include="Models\MobUser.cs" />
     <Compile Include="mySqlConnection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\appuser_repo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="build\css\custom.min.css" />
@@ -385,7 +386,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Repository\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

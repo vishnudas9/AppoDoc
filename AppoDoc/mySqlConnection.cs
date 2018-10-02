@@ -18,6 +18,12 @@ namespace AppoDoc
             // sqlCon = new MySqlConnection("Database=GymSoft;Data Source=localhost;Integrated Security=True;");
 
         }
+
+        internal bool ExecuteQuery(MySqlCommand cmd)
+        {
+            throw new NotImplementedException();
+        }
+
         public DataTable SelectQuery(string strQuery)
         {
             DataTable dt = new DataTable();

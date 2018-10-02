@@ -10,7 +10,7 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
+<table class="table table-bordered table-striped">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.au_user_id)
@@ -33,19 +33,12 @@
         <th>
             @Html.DisplayNameFor(model => model.au_status)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.au_last_update)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.au_android_id)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.au_otp)
-        </th>
+        
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
+    
+@*@foreach (var item in Model) {
     <tr>
         <td>
             @Html.DisplayFor(modelItem => item.au_user_id)
@@ -75,6 +68,6 @@
             @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
         </td>
     </tr>
-}
+}*@
 
 </table>
